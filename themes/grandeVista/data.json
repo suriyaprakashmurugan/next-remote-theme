@@ -65,6 +65,24 @@
       "location": "R S Puram, Coimbatore",
       "features": ["2 Bed", "2 Bath", "2000 sqft"],
       "price": "2.8 Cr"
+    },
+    {
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/top-property-2.png",
+      "tags": ["Villa", "Available Units : 25"],
+      "name": "Skyline Residences",
+      "description": "Lorem ipsum dolor sit amet...",
+      "location": "R S Puram, Coimbatore",
+      "features": ["1 Bed", "2 Bath", "2100 sqft"],
+      "price": "2.0 Cr"
+    },
+    {
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/top-property-3.png",
+      "tags": ["Villa", "Available Units : 25"],
+      "name": "Skyline Residences",
+      "description": "Lorem ipsum dolor sit amet...",
+      "location": "R S Puram, Coimbatore",
+      "features": ["1.5 Bed", "2 Bath", "1200 sqft"],
+      "price": "4.8 Cr"
     }
   ],
 
@@ -76,6 +94,13 @@
     {
       "title": "Apartment",
       "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-2.png"
+    },
+    {
+      "title": "Apartment",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-3.png"
+    },{
+      "title": "Apartment",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-4.png"
     }
   ],
 
