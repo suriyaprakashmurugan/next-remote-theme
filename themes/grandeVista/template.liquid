@@ -10,6 +10,40 @@
   </head>
 
   <body>
+  <header class="hero-header">
+  <div class="hero-logo">
+    <a href="index.html">
+      <img src="{{ assets_path }}/logo.svg" alt="logo-icon" />
+    </a>
+  </div>
+
+  <nav class="hero-nav">
+    <ul class="hero-nav-menu">
+      {% for item in nav_items %}
+        <li class="hero-nav-item {% if item.active %}active{% endif %}">
+          <a href="{{ item.url }}">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="hero-contact">
+    <a href="{{ contact.url }}" class="hero-contact-button">{{ contact.text }}</a>
+  </div>
+
+  <button
+    class="hero-mobile-toggle"
+    id="menuToggle"
+    aria-label="Toggle mobile menu"
+  >
+    <div class="hamburger-icon">
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+    </div>
+  </button>
+</header>
+
 <section class="hero">
   <div class="hero-background">
     <img src="{{ hero.image }}" alt="Luxury Home" class="hero-img" />
