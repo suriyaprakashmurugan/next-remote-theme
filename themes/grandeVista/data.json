@@ -1,4 +1,30 @@
 {
-  "title": "Top Features",
-  "items": ["Fast", "Secure", "Free", "Scalable"]
+  "title": "Real Estate Demo",
+  "css_url": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/styles/styles.css",
+  "assets_path": "https://your-username.github.io/your-repo/assets",
+
+  "nav_items": [
+    { "name": "Home", "url": "index.html", "active": true },
+    { "name": "About", "url": "about.html" },
+    { "name": "Projects", "url": "project-listing.html" },
+    { "name": "Property Listings", "url": "property-listing.html" },
+    { "name": "Collections", "url": "collection.html" }
+  ],
+  "contact": {
+    "text": "Contact Us",
+    "url": "contact.html"
+  },
+  "hero": {
+    "heading": "Find Your Dream Property",
+    "description": "Explore top-rated real estate listings tailored to your needs.",
+    "cta_text": "Browse Listings",
+    "cta_link": "property-listing.html"
+  },
+  "company_name": "RealEstateCo",
+  "year": "2025",
+  "footer_links": [
+    { "label": "Privacy Policy", "url": "privacy.html" },
+    { "label": "Terms of Service", "url": "terms.html" },
+    { "label": "Support", "url": "support.html" }
+  ]
 }

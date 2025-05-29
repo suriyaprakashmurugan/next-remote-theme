@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; {{ year }} {{ company_name }}. All rights reserved.</p>
+    <ul class="footer-nav">
+      {% for link in footer_links %}
+        <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</footer>
