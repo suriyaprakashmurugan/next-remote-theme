@@ -8,6 +8,28 @@
     "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/logo.svg",
     "alt_text": "HavenBuilt Logo"
   },
+  "nav_items": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Properties",
+      "url": "/properties"
+    },
+    {
+      "name": "About Us",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "contact": {
+    "url": "/partner",
+    "text": "Channel Partner"
+  },
 
   "hero": {
     "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/banner1.png",
