@@ -127,14 +127,14 @@
         <h2 class="top-property-name">{{ property.name }}</h2>
         <p class="top-property-description">{{ property.description }}</p>
         <div class="top-property-location">
-          <img src="{{ assetsUrl }}/location.svg" alt="location-icon" />
+          <img src="{{ assetsUrl }}location.svg" alt="location-icon" />
           <span>{{ property.location }}</span>
         </div>
         <div class="top-property-features">
           {% for feature in property.features %}
           <div class="top-property-feature">
-            <img src="{{ assetsUrl }}feature.svg" alt="feature-icon" />
-            <span>{{ feature.title }}{{feature.svg}}</span>
+            <img src="{{ assetsUrl }}{{feature.svg}}" alt="feature-icon" />
+            <span>{{ feature.title }}</span>
           </div>
           {% endfor %}
         </div>
