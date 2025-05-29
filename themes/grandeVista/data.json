@@ -1,30 +1,88 @@
 {
-  "title": "Real Estate Demo",
+  "title": "HavenBuilt - Home",
   "css_url": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/styles/styles.css",
-  "assets_path": "https://your-username.github.io/your-repo/assets",
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap",
 
-  "nav_items": [
-    { "name": "Home", "url": "index.html", "active": true },
-    { "name": "About", "url": "about.html" },
-    { "name": "Projects", "url": "project-listing.html" },
-    { "name": "Property Listings", "url": "property-listing.html" },
-    { "name": "Collections", "url": "collection.html" }
-  ],
-  "contact": {
-    "text": "Contact Us",
-    "url": "contact.html"
-  },
   "hero": {
-    "heading": "Find Your Dream Property",
-    "description": "Explore top-rated real estate listings tailored to your needs.",
-    "cta_text": "Browse Listings",
-    "cta_link": "property-listing.html"
+    "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/banner1.png",
+    "title": "Discover Luxury Living Built for You",
+    "description": "Explore premium homes crafted by trusted builders. Designed for comfort, built with precision, and ready to welcome you home.",
+    "button_text": "Explore Properties",
+    "search_filters": ["Location", "Category", "Bedroom", "Facing"]
   },
-  "company_name": "RealEstateCo",
-  "year": "2025",
-  "footer_links": [
-    { "label": "Privacy Policy", "url": "privacy.html" },
-    { "label": "Terms of Service", "url": "terms.html" },
-    { "label": "Support", "url": "support.html" }
-  ]
+
+  "about": {
+    "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/homeAbout.png",
+    "title": "Homes Crafted with Purpose, Experiences Built to Last.",
+    "description": "Lorem ipsum dolor sit amet consectetur... [your content here]",
+    "button": "View Properties"
+  },
+
+  "trust_points": [
+    {
+      "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client1.svg",
+      "title": "100% In-House Construction Quality",
+      "description": "Every home is built with precision and care by our own trusted team."
+    },
+    {
+      "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client2.svg",
+      "title": "Transparent Pricing & Zero Hidden Charges",
+      "description": "What you see is what you pay — no surprises, just honesty."
+    }
+  ],
+
+  "top_properties": [
+    {
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/top-property-1.png",
+      "tags": ["Villa", "Available Units : 25"],
+      "name": "Skyline Residences",
+      "description": "Lorem ipsum dolor sit amet...",
+      "location": "R S Puram, Coimbatore",
+      "features": ["2 Bed", "2 Bath", "2000 sqft"],
+      "price": "2.8 Cr"
+    }
+  ],
+
+  "property_types": [
+    {
+      "title": "Villa",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-1.png"
+    },
+    {
+      "title": "Apartment",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-2.png"
+    }
+  ],
+
+  "testimonials": [
+    {
+      "name": "Sadakopan",
+      "role": "Software Engineer",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/testimonial-1.png",
+      "text": "Lorem ipsum dolor sit amet..."
+    }
+  ],
+
+  "footer": {
+    "contact": {
+      "phone": "+91 98765 43210",
+      "email": "havenbuilt@hb.com"
+    },
+    "socials": [
+      {
+        "platform": "whatsapp",
+        "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/whatsapp.svg"
+      },
+      {
+        "platform": "facebook",
+        "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/facebook.svg"
+      }
+    ],
+    "nav": {
+      "company": ["About", "Blog", "All Properties"],
+      "services": ["Terms & Conditions", "Promotional Offers"],
+      "explore": ["Villa", "Apartment", "Plot", "Rowhouse"]
+    },
+    "copyright": "Copyright 2025 Majestichomes. All rights reserved"
+  }
 }

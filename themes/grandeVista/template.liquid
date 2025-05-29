@@ -5,16 +5,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
 
-    <!-- External CSS -->
     <link rel="stylesheet" href="{{ css_url }}" />
+    <link href="{{ google_fonts }}" rel="stylesheet" />
   </head>
+
   <body>
-    {% include 'header' %}
+<section class="hero">
+  <div class="hero-background">
+    <img src="{{ hero.image }}" alt="Luxury Home" class="hero-img" />
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <h1 class="hero-title">{{ hero.title }}</h1>
+    <p class="hero-description">{{ hero.description }}</p>
+    <a href="#" class="hero-explore-button">{{ hero.button_text }}</a>
+    <div class="hero-search">
+      {% for filter in hero.search_filters %}
+      <div class="hero-search-option">
+        <span class="hero-search-label">{{ filter }}</span>
+        <svg class="hero-search-arrow" width="12" height="6" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 1L4 3L7 1" stroke="#171937" stroke-width="2" stroke-linecap="round" />
+        </svg>
+      </div>
+      {% unless forloop.last %}
+      <div class="hero-search-divider"></div>
+      {% endunless %}
+      {% endfor %}
+      <button class="hero-search-button">Search</button>
+    </div>
+  </div>
+</section>
 
-    <main class="main-content">
-      {% include 'content' %}
-    </main>
+<section>
+  <div class="homeabout-container">
+    <div class="homeabout-heading">About</div>
+    <div class="homeabout-content">
+      <img src="{{ about.image }}" alt="About" class="homeabout-image" />
+      <div class="homeabout-text-content">
+        <div class="homeabout-title">{{ about.title }}</div>
+        <div class="homeabout-description">{{ about.description }}</div>
+        <div class="homeabout-button">
+          <span>{{ about.button }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    {% include 'footer' %}
+<section>
+  <div class="trust-wrapper">
+    <div class="trust-title">Why Client Trust Us</div>
+    <div class="trust-subtitle">{{ trust.subtitle }}</div>
+    <div class="trust-content">
+      <div class="trust-points">
+        {% for point in trust_points %}
+        <div class="trust-card">
+          <div class="trust-icon">
+            <img src="{{ point.icon }}" alt="client-icon" />
+          </div>
+          <div class="trust-text">
+            <div class="trust-heading">{{ point.title }}</div>
+            <div class="trust-desc">{{ point.description }}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <img class="trust-image" src="{{ trust.image }}" alt="Client Trust" />
+    </div>
+  </div>
+</section>
+
+<section class="top-property-section">
+  <div class="top-property-header">
+    <h1 class="top-property-title">Explore Our Top <br />Property Listings</h1>
+    <a href="#" class="top-property-button">Explore All Properties</a>
+  </div>
+  <div class="top-property-cards">
+    {% for property in top_properties %}
+    <div class="top-property-card">
+      <img class="top-property-image" src="{{ property.image }}" alt="{{ property.name }}" />
+      <div class="top-property-tags">
+        {% for tag in property.tags %}
+        <div class="top-property-tag">{{ tag }}</div>
+        {% endfor %}
+      </div>
+      <div class="top-property-content">
+        <h2 class="top-property-name">{{ property.name }}</h2>
+        <p class="top-property-description">{{ property.description }}</p>
+        <div class="top-property-location">
+          <img src="{{ property.location_icon }}" alt="location-icon" />
+          <span>{{ property.location }}</span>
+        </div>
+        <div class="top-property-features">
+          {% for feature in property.features %}
+          <div class="top-property-feature">
+            <img src="{{ feature.icon }}" alt="feature-icon" />
+            <span>{{ feature.label }}</span>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="top-property-footer">
+          <div class="top-property-price">
+            <span>Price</span>
+            <img src="{{ property.price_icon }}" alt="rupee-icon" />
+            <span class="top-property-price-amount">{{ property.price }}</span>
+          </div>
+          <a href="#" class="top-property-view-button">View Properties</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section>
+  <div class="dreamproperty-wrapper">
+    <div class="dreamproperty-header">Choose Your Dream Property Type</div>
+    <div class="dreamproperty-cards">
+      {% for type in property_types %}
+      <div class="dreamproperty-card">
+        <img src="{{ type.image }}" alt="{{ type.title }}" />
+        <div class="dreamproperty-title">{{ type.title }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="testimonials-section">
+  <div class="testimonials-wrapper">
+    <h2 class="testimonials-header">See What Our Customers Have to Say</h2>
+    <div class="testimonials-container">
+      <div class="testimonials-cards">
+        {% for testimonial in testimonials %}
+        <div class="testimonials-card">
+          <img class="testimonials-image" src="{{ testimonial.image }}" alt="Customer Photo" />
+          <p class="testimonials-text">{{ testimonial.text }}</p>
+          <div class="testimonials-info">
+            <span class="testimonials-name">{{ testimonial.name }}</span>
+            <span class="testimonials-role">{{ testimonial.role }}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <footer class="footer">
+    <div class="footer-upper">
+      <div class="footer-container">
+        <div class="footer-hero">
+          <img src="{{ footer.hero_image }}" alt="Luxury Home" class="footer-hero-bg-img" />
+          <div class="footer-hero-content">
+            <div class="footer-hero-text">
+              <h2 class="footer-hero-title">{{ footer.hero_title }}</h2>
+              <p class="footer-hero-description">{{ footer.hero_description }}</p>
+            </div>
+            <a href="#" class="footer-explore-button">Explore All Properties</a>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <div class="footer-logo-section">
+            <div class="footer-logo">
+              <img src="{{ footer.logo }}" alt="Logo" />
+            </div>
+            <p class="footer-description">{{ footer.description }}</p>
+            <div class="footer-contact-info">
+              <div class="footer-contact-item">
+                <span class="footer-phone-icon">
+                  <img src="{{ footer.phone_icon }}" alt="phone-icon" />
+                </span>
+                <span class="footer-contact-text">{{ footer.contact.phone }}</span>
+              </div>
+              <div class="footer-contact-item">
+                <span class="footer-email-icon">
+                  <img src="{{ footer.email_icon }}" alt="mail-icon" />
+                </span>
+                <span class="footer-contact-text">{{ footer.contact.email }}</span>
+              </div>
+              <div class="footer-social">
+                <span class="footer-social-title">Follow us:</span>
+                <div class="footer-social-icons">
+                  {% for social in footer.socials %}
+                  <a href="{{ social.link }}" class="footer-social-icon">
+                    <img src="{{ social.icon }}" alt="{{ social.platform }}-icon" />
+                  </a>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-nav-columns">
+            {% for column in footer.nav %}
+            <div class="footer-nav-column">
+              <h4 class="footer-column-title">{{ column.title }}</h4>
+              <ul class="footer-nav-list">
+                {% for item in column.links %}
+                <li><a href="#">{{ item }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-container">
+        <div class="footer-copyright">
+          <div class="footer-copyright-left">
+            <span class="footer-copyright-icon">C</span>
+            <span class="footer-copyright-text">
+              {{ footer.copyright }}
+            </span>
+          </div>
+          <div class="footer-copyright-right">
+            <span>Terms & Condition | Privacy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+
   </body>
 </html>
