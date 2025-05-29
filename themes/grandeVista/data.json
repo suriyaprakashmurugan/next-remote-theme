@@ -22,6 +22,11 @@
     "description": "Lorem ipsum dolor sit amet consectetur... [your content here]",
     "button": "View Properties"
   },
+  "trust": {
+    "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/clienttrust.png",
+    "title": "Trusted by Thousands, Built for Generations",
+    "subtitle": "Lorem ipsum dolor sit amet consectetur... "
+  },
 
   "trust_points": [
     {
@@ -33,6 +38,21 @@
       "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client2.svg",
       "title": "Transparent Pricing & Zero Hidden Charges",
       "description": "What you see is what you pay — no surprises, just honesty."
+    },
+    {
+      "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client3.svg",
+      "title": "Timely Possession & Builder Assurance",
+      "description": "We deliver on time, every time — with guaranteed commitment."
+    },
+    {
+      "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client4.svg",
+      "title": "Modern Amenities & Smart Home Features",
+      "description": "Experience future-ready living with smart, convenient upgrades."
+    },
+    {
+      "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client5.svg",
+      "title": "Prime Locations & Great Connectivity",
+      "description": "Live where everything you need is always within reach."
     }
   ],
 
@@ -65,7 +85,8 @@
       "role": "Software Engineer",
       "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/testimonial-1.png",
       "text": "Lorem ipsum dolor sit amet..."
-    },{
+    },
+    {
       "name": "Sadakopan",
       "role": "Software Engineer",
       "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/testimonial-1.png",
