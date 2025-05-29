@@ -127,21 +127,21 @@
         <h2 class="top-property-name">{{ property.name }}</h2>
         <p class="top-property-description">{{ property.description }}</p>
         <div class="top-property-location">
-          <img src="{{ property.location_icon }}" alt="location-icon" />
+          <img src="{{ assetsUrl }}/location.svg" alt="location-icon" />
           <span>{{ property.location }}</span>
         </div>
         <div class="top-property-features">
           {% for feature in property.features %}
           <div class="top-property-feature">
-            <img src="{{ feature }}" alt="feature" />
-            <span>{{ feature }}</span>
+            <img src="{{ feature.svg }}" alt="feature-icon" />
+            <span>{{ feature.title }}</span>
           </div>
           {% endfor %}
         </div>
         <div class="top-property-footer">
           <div class="top-property-price">
             <span>Price</span>
-            <img src="{{ property.price_icon }}" alt="rupee-icon" />
+            <img src="{{ {{ assetsUrl }}/rupee.svg }}" alt="rupee-icon" />
             <span class="top-property-price-amount">{{ property.price }}</span>
           </div>
           <a href="#" class="top-property-view-button">View Properties</a>

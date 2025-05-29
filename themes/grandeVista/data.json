@@ -1,5 +1,6 @@
 {
   "title": "HavenBuilt - Home",
+  "assetsUrl": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/",
   "css_url": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/styles/styles.css",
   "google_fonts": "https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap",
 
@@ -63,7 +64,11 @@
       "name": "Skyline Residences",
       "description": "Lorem ipsum dolor sit amet...",
       "location": "R S Puram, Coimbatore",
-      "features": ["2 Bed", "2 Bath", "2000 sqft"],
+      "features": [
+        { "svg": "bed.svg", "title": "2 Bed" },
+        { "svg": "bath.svg", "title": "2 Bath" },
+        { "svg": "sqft.svg", "title": "2000 sqft" }
+      ],
       "price": "2.8 Cr"
     },
     {
@@ -72,7 +77,11 @@
       "name": "Skyline Residences",
       "description": "Lorem ipsum dolor sit amet...",
       "location": "R S Puram, Coimbatore",
-      "features": ["1 Bed", "2 Bath", "2100 sqft"],
+      "features": [
+        { "svg": "bed.svg", "title": "2 Bed" },
+        { "svg": "bath.svg", "title": "2 Bath" },
+        { "svg": "sqft.svg", "title": "2000 sqft" }
+      ],
       "price": "2.0 Cr"
     },
     {
@@ -81,7 +90,11 @@
       "name": "Skyline Residences",
       "description": "Lorem ipsum dolor sit amet...",
       "location": "R S Puram, Coimbatore",
-      "features": ["1.5 Bed", "2 Bath", "1200 sqft"],
+      "features": [
+        { "svg": "bed.svg", "title": "2 Bed" },
+        { "svg": "bath.svg", "title": "2 Bath" },
+        { "svg": "sqft.svg", "title": "2000 sqft" }
+      ],
       "price": "4.8 Cr"
     }
   ],
@@ -98,7 +111,8 @@
     {
       "title": "Apartment",
       "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-3.png"
-    },{
+    },
+    {
       "title": "Apartment",
       "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-4.png"
     }
