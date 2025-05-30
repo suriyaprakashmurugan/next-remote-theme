@@ -72,14 +72,14 @@
 
 <section>
   <div class="homeabout-container">
-    <div class="homeabout-heading">About</div>
+    <div class="homeabout-heading">{{ aboutus.heading }}</div>
     <div class="homeabout-content">
-      <img src="{{ about.image }}" alt="About" class="homeabout-image" />
+      <img src="{{assetsUrl}}{{ aboutus.image }}" alt="About" class="homeabout-image" />
       <div class="homeabout-text-content">
-        <div class="homeabout-title">{{ about.title }}</div>
-        <div class="homeabout-description">{{ about.description }}</div>
+        <div class="homeabout-title">{{ aboutus.subheading }}</div>
+        <div class="homeabout-description">{{ aboutus.description }}</div>
         <div class="homeabout-button">
-          <span>{{ about.button }}</span>
+          <span>{{ aboutus.button }}</span>
         </div>
       </div>
     </div>

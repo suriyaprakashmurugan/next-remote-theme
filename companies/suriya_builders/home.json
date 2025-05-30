@@ -34,12 +34,14 @@
     "filters": ["Location", "Category", "Bedroom", "Facing"]
   },
 
-  "about": {
-    "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/homeAbout.png",
-    "title": "Homes Crafted with Purpose, Experiences Built to Last.",
-    "description": "Lorem ipsum dolor sit amet consectetur... [your content here]",
-    "button": "View Properties"
+  "aboutus": {
+    "heading": "About",
+    "subheading": "Homes Crafted with Purpose, Experiences Built to Last.",
+    "description": "Lorem ipsum dolor sit amet consectetur. Faucibus nisl risus...",
+    "button": "View Properties",
+    "image": "homeAbout.png"
   },
+
   "trust": {
     "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/clienttrust.png",
     "title": "Trusted by Thousands, Built for Generations",
