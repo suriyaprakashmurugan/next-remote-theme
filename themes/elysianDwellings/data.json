@@ -47,6 +47,34 @@
     "button": "Explore Luxury Homes",
     "image": "aboutus.png"
   },
+
+  "stats": {
+    "title": "Building More Than Homes - We Build the Difference",
+    "image":"",
+    "items": [
+      {
+        "icon": "https://your-site.com/icons/clients.svg",
+        "label": "Happy Homeowners",
+        "value": "5k +"
+      },
+      {
+        "icon": "https://your-site.com/icons/projects.svg",
+        "label": "Premium Projects",
+        "value": "3k +"
+      },
+      {
+        "icon": "https://your-site.com/icons/awards.svg",
+        "label": "Properties Sold",
+        "value": "5k +"
+      },
+      {
+        "icon": "https://your-site.com/icons/years.svg",
+        "label": "Years Experience",
+        "value": "5k +"
+      }
+    ]
+  },
+
   "feature_properties": {
     "title": "Featured Properties",
     "list": [
