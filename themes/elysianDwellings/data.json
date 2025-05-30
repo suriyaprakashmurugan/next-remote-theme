@@ -45,5 +45,25 @@
     "description": "Lorem ipsum dolor sit amet consectetur. Faucibus nisl risus...",
     "button": "Explore Luxury Homes",
     "image": "https://your-site.com/assets/images/aboutus.png"
+  },
+  "feature_properties": {
+    "title": "Featured Properties",
+    "list": [
+      {
+        "image": "https://your-site.com/images/Featured-Properties-1.webp",
+        "type": "Villa",
+        "units": 15,
+        "name": "Maplewood Residence",
+        "details": [
+          { "label": "Beds", "value": 3 },
+          { "label": "Baths", "value": 4 },
+          { "label": "Sq ft", "value": 890 },
+          { "label": "Rooms", "value": 7 }
+        ],
+        "price": "42 L",
+        "price_icon": "<svg>...</svg>",
+        "link": "#"
+      }
+    ]
   }
 }

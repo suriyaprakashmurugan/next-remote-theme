@@ -10,7 +10,6 @@
   </head>
 
   <body>
-  --- home-hero.liquid ---
 <section class="home-hero-section">
   <img src="{{ home_hero.background_image }}" alt="Background" class="home-hero-background-image" />
 
@@ -73,7 +72,6 @@
   </div>
 </section>
 
---- home-gallery.liquid ---
 <section class="home-image-container">
   <div class="home-image-header">
     <div class="home-image-title">
@@ -104,7 +102,6 @@
   </div>
 </section>
 
---- home-aboutus.liquid ---
 <section>
   <div class="home-aboutus-container">
     <div class="home-aboutus-content">
@@ -116,6 +113,68 @@
     <div class="home-aboutus-image-wrapper">
       <img class="home-aboutus-image" src="{{ aboutus.image }}" alt="Luxury Home" />
     </div>
+  </div>
+</section>
+<section class="home-stats-container">
+  <div class="home-stats-background">
+    <div class="home-stats-title">{{ stats.title }}</div>
+    <div class="home-stats-grid">
+      {% for item in stats.items %}
+      <div class="home-stats-item">
+        <div class="home-stats-icon">
+          {{ item.icon | raw }}
+        </div>
+        <div class="home-stats-content">
+          <div class="home-stats-number">{{ item.number }}</div>
+          <div class="home-stats-text">{{ item.text }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-featureProperties">
+  <div class="home-featureProperties__heading">{{ feature_properties.title }}</div>
+  <div class="home-featureProperties__container" id="propertySlider">
+    {% for property in feature_properties.list %}
+    <div class="home-featureProperties__card">
+      <img src="{{ property.image }}" alt="{{ property.name }}" class="home-featureProperties__image" />
+      <div class="home-featureProperties__tags">
+        <div class="home-featureProperties__tag">{{ property.type }}</div>
+        <div class="home-featureProperties__tag home-featureProperties__tag--units">
+          <span>Available Units :</span>
+          <span class="home-featureProperties__units">{{ property.units }}</span>
+        </div>
+      </div>
+      <div class="home-featureProperties__info">
+        <h3 class="home-featureProperties__title">{{ property.name }}</h3>
+        <div class="home-featureProperties__details">
+          {% for detail in property.details %}
+          <div class="home-featureProperties__detail">
+            <div class="home-featureProperties__detail-value">{{ detail.value }}</div>
+            <div class="home-featureProperties__detail-label">{{ detail.label }}</div>
+          </div>
+          {% unless forloop.last %}
+          <svg xmlns="http://www.w3.org/2000/svg" width="2" height="71" viewBox="0 0 2 71" fill="none">
+            <path d="M1 0V71" stroke="#696969" />
+          </svg>
+          {% endunless %}
+          {% endfor %}
+        </div>
+        <div class="home-featureProperties__price-container">
+          <div class="home-featureProperties__price">
+            <span>Price :</span>
+            <div class="home-featureProperties__price-value">
+              {{ property.price_icon | raw }}
+              <span>{{ property.price }}</span>
+            </div>
+          </div>
+          <a href="{{ property.link }}" class="home-featureProperties__btn">View Details</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 </section>
 
