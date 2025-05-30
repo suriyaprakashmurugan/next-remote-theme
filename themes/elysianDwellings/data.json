@@ -3,8 +3,8 @@
   "css_url": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/elysianDwellings/styles/styles.css",
 
   "home_hero": {
-    "background_image": "https://your-site.com/assets/images/banner1.png",
-    "logo": "https://your-site.com/assets/images/logo.png",
+    "background_image": "banner1.png",
+    "logo": "logo.png",
     "nav_items": [
       { "label": "Home", "href": "index.html", "active": true },
       { "label": "About", "href": "about.html" },
