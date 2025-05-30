@@ -83,19 +83,19 @@
   </div>
   <div class="home-image-gallery">
     <div class="home-image-main">
-      <img src="{{ home_gallery.main_image }}" alt="Main image" />
+      <img src="{{assetsUrl}}{{ home_gallery.main_image }}" alt="Main image" />
     </div>
     <div class="home-image-secondary">
       <div class="home-image-row">
         {% for image in home_gallery.row1_images %}
         <div class="home-image-small">
-          <img src="{{ image.src }}" alt="{{ image.alt }}" />
+          <img src="{{assetsUrl}}{{ image.src }}" alt="{{ image.alt }}" />
         </div>
         {% endfor %}
       </div>
       <div class="home-image-row">
         <div class="home-image-wide">
-          <img src="{{ home_gallery.row2_image.src }}" alt="{{ home_gallery.row2_image.alt }}" />
+          <img src="{{assetsUrl}}{{ home_gallery.row2_image.src }}" alt="{{ home_gallery.row2_image.alt }}" />
         </div>
       </div>
     </div>

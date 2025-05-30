@@ -23,19 +23,19 @@
   "home_gallery": {
     "title": "Live the Luxury, <br />Own the Extraordinary",
     "cta_text": "Explore Luxury Homes",
-    "main_image": "https://your-site.com/assets/images/gallery-img1.png",
+    "main_image": "gallery-img1.png",
     "row1_images": [
       {
-        "src": "https://your-site.com/assets/images/gallery-img2.png",
+        "src": "gallery-img2.png",
         "alt": "Living room"
       },
       {
-        "src": "https://your-site.com/assets/images/gallery-img3.png",
+        "src": "gallery-img3.png",
         "alt": "Modern kitchen"
       }
     ],
     "row2_image": {
-      "src": "https://your-site.com/assets/images/gallery-img4.png",
+      "src": "gallery-img4.png",
       "alt": "Modern houses in autumn"
     }
   },
