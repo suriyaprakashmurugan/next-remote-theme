@@ -46,7 +46,7 @@
 
 <section class="hero">
   <div class="hero-background">
-    <img src="{{ home_hero.image }}" alt="Luxury Home" class="hero-img" />
+    <img src="{{ home_hero.background_image }}" alt="Luxury Home" class="hero-img" />
     <div class="hero-overlay"></div>
   </div>
   <div class="hero-content">
@@ -54,7 +54,7 @@
     <p class="hero-description">{{ home_hero.description }}</p>
     <a href="#" class="hero-explore-button">{{ home_hero.button_text }}</a>
     <div class="hero-search">
-      {% for filter in home_hero.search_filters %}
+      {% for filter in home_hero.filters %}
       <div class="hero-search-option">
         <span class="hero-search-label">{{ filter }}</span>
         <svg class="hero-search-arrow" width="12" height="6" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg">
