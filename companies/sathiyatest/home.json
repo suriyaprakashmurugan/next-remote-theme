@@ -1,0 +1,150 @@
+{
+  "theme": "elysianDwellings",
+  "title": "Elysian Dwellings - Home",
+  "assetsUrl": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/elysianDwellings/assets/",
+  "css_url": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/elysianDwellings/styles/styles.css",
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&family=Poppins:wght@500&display=swap",
+
+  "home_hero": {
+    "background_image": "banner1.png",
+    "logo": "logo.png",
+    "nav_items": [
+      { "label": "Home", "href": "index.html", "active": true },
+      { "label": "About", "href": "about.html" },
+      { "label": "Property Listing", "href": "property-listing.html" },
+      { "label": "Collections", "href": "collection.html" }
+    ],
+    "contact_link": "contact.html",
+    "title": "Welcome to a<br />World of Wonders",
+    "description": "Discover premium villas, apartments, and plots in prime locations...",
+    "cta_text": "View Properties",
+    "cta_link": "#",
+    "filters": ["Location", "Property Name", "Category", "Bedrooms", "Facing"]
+  },
+
+  "home_gallery": {
+    "title": "Live the Luxury, <br />Own the Extraordinary",
+    "cta_text": "Explore Luxury Homes",
+    "main_image": "gallery-img1.png",
+    "row1_images": [
+      {
+        "src": "gallery-img2.png",
+        "alt": "Living room"
+      },
+      {
+        "src": "gallery-img3.png",
+        "alt": "Modern kitchen"
+      }
+    ],
+    "row2_image": {
+      "src": "gallery-img4.png",
+      "alt": "Modern houses in autumn"
+    }
+  },
+
+  "aboutus": {
+    "heading": "About Us",
+    "subheading": "Building Trust, Creating Homes",
+    "description": "Lorem ipsum dolor sit amet consectetur. Faucibus nisl risus...",
+    "button": "Explore Luxury Homes",
+    "image": "aboutus.png"
+  },
+
+  "stats": {
+    "title": "Building More Than Homes - We Build the Difference",
+    "image": "",
+    "items": [
+      {
+        "icon": "https://your-site.com/icons/clients.svg",
+        "label": "Happy Homeowners",
+        "value": "5k +"
+      },
+      {
+        "icon": "https://your-site.com/icons/projects.svg",
+        "label": "Premium Projects",
+        "value": "3k +"
+      },
+      {
+        "icon": "https://your-site.com/icons/awards.svg",
+        "label": "Properties Sold",
+        "value": "5k +"
+      },
+      {
+        "icon": "https://your-site.com/icons/years.svg",
+        "label": "Years Experience",
+        "value": "5k +"
+      }
+    ]
+  },
+
+  "feature_properties": {
+    "title": "Featured Properties",
+    "list": [
+      {
+        "image": "Featured Properties 1.webp",
+        "type": "Villa",
+        "units": 15,
+        "name": "Maplewood Residence",
+        "details": [
+          { "label": "Beds", "value": 3 },
+          { "label": "Baths", "value": 4 },
+          { "label": "Sq ft", "value": 890 },
+          { "label": "Rooms", "value": 7 }
+        ],
+        "price": "42 L",
+        "price_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"24\" viewBox=\"0 0 21 24\" fill=\"none\"><path d=\"M0.847412 9.41916L2.484 5.73196H8.65732C8.57921 5.47026 8.44445 5.21247 8.24915 4.96053C8.05386 4.7086 7.81364 4.49182 7.52851 4.30629C7.24338 4.12271 6.92504 3.97038 6.57351 3.85906C6.22197 3.74188 5.84701 3.68525 5.45641 3.68525H0.847412L2.484 0H20.1525L18.5159 3.6872H14.2487C14.4166 3.8161 14.5729 3.96647 14.7174 4.14029C14.8619 4.30824 14.9908 4.48206 15.1021 4.67149C15.2076 4.85507 15.3033 5.04061 15.3814 5.22418C15.4536 5.40776 15.5044 5.58158 15.5259 5.73196H20.1505L18.5139 9.41916H15.1705C14.9244 10.0441 14.5611 10.6378 14.0749 11.1964C13.5886 11.7608 13.0242 12.2568 12.3816 12.704C11.7332 13.1513 11.036 13.5204 10.2802 13.827C9.52639 14.1278 8.76083 14.3289 7.98355 14.4422L17.268 24H9.93066L1.65203 14.9148V11.5303H5.3158C5.66733 11.5303 6.01496 11.4737 6.35478 11.3565C6.70045 11.2393 7.01878 11.0831 7.30392 10.8878C7.59491 10.6983 7.84489 10.4679 8.05776 10.2179C8.27064 9.96013 8.42101 9.69843 8.51085 9.41916H0.847412Z\" fill=\"#242322\"></path></svg>",
+        "link": "#"
+      },
+      {
+        "image": "Featured Properties 2.webp",
+        "type": "Villa",
+        "units": 15,
+        "name": "Maplewood Residence",
+        "details": [
+          { "label": "Beds", "value": 3 },
+          { "label": "Baths", "value": 4 },
+          { "label": "Sq ft", "value": 890 },
+          { "label": "Rooms", "value": 7 }
+        ],
+        "price": "42 L",
+        "price_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"24\" viewBox=\"0 0 21 24\" fill=\"none\"><path d=\"M0.847412 9.41916L2.484 5.73196H8.65732C8.57921 5.47026 8.44445 5.21247 8.24915 4.96053C8.05386 4.7086 7.81364 4.49182 7.52851 4.30629C7.24338 4.12271 6.92504 3.97038 6.57351 3.85906C6.22197 3.74188 5.84701 3.68525 5.45641 3.68525H0.847412L2.484 0H20.1525L18.5159 3.6872H14.2487C14.4166 3.8161 14.5729 3.96647 14.7174 4.14029C14.8619 4.30824 14.9908 4.48206 15.1021 4.67149C15.2076 4.85507 15.3033 5.04061 15.3814 5.22418C15.4536 5.40776 15.5044 5.58158 15.5259 5.73196H20.1505L18.5139 9.41916H15.1705C14.9244 10.0441 14.5611 10.6378 14.0749 11.1964C13.5886 11.7608 13.0242 12.2568 12.3816 12.704C11.7332 13.1513 11.036 13.5204 10.2802 13.827C9.52639 14.1278 8.76083 14.3289 7.98355 14.4422L17.268 24H9.93066L1.65203 14.9148V11.5303H5.3158C5.66733 11.5303 6.01496 11.4737 6.35478 11.3565C6.70045 11.2393 7.01878 11.0831 7.30392 10.8878C7.59491 10.6983 7.84489 10.4679 8.05776 10.2179C8.27064 9.96013 8.42101 9.69843 8.51085 9.41916H0.847412Z\" fill=\"#242322\"></path></svg>",
+        "link": "#"
+      },
+      {
+        "image": "Featured Properties 3.webp",
+        "type": "Villa",
+        "units": 15,
+        "name": "Maplewood Residence",
+        "details": [
+          { "label": "Beds", "value": 3 },
+          { "label": "Baths", "value": 4 },
+          { "label": "Sq ft", "value": 890 },
+          { "label": "Rooms", "value": 7 }
+        ],
+        "price": "42 L",
+        "price_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"24\" viewBox=\"0 0 21 24\" fill=\"none\"><path d=\"M0.847412 9.41916L2.484 5.73196H8.65732C8.57921 5.47026 8.44445 5.21247 8.24915 4.96053C8.05386 4.7086 7.81364 4.49182 7.52851 4.30629C7.24338 4.12271 6.92504 3.97038 6.57351 3.85906C6.22197 3.74188 5.84701 3.68525 5.45641 3.68525H0.847412L2.484 0H20.1525L18.5159 3.6872H14.2487C14.4166 3.8161 14.5729 3.96647 14.7174 4.14029C14.8619 4.30824 14.9908 4.48206 15.1021 4.67149C15.2076 4.85507 15.3033 5.04061 15.3814 5.22418C15.4536 5.40776 15.5044 5.58158 15.5259 5.73196H20.1505L18.5139 9.41916H15.1705C14.9244 10.0441 14.5611 10.6378 14.0749 11.1964C13.5886 11.7608 13.0242 12.2568 12.3816 12.704C11.7332 13.1513 11.036 13.5204 10.2802 13.827C9.52639 14.1278 8.76083 14.3289 7.98355 14.4422L17.268 24H9.93066L1.65203 14.9148V11.5303H5.3158C5.66733 11.5303 6.01496 11.4737 6.35478 11.3565C6.70045 11.2393 7.01878 11.0831 7.30392 10.8878C7.59491 10.6983 7.84489 10.4679 8.05776 10.2179C8.27064 9.96013 8.42101 9.69843 8.51085 9.41916H0.847412Z\" fill=\"#242322\"></path></svg>",
+        "link": "#"
+      }
+    ]
+  },
+
+  "footer_sec": {
+    "content": "Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.",
+    "contact": {
+      "address": "R S Puram, Coimbatore",
+      "phone": "+91 98765 43210",
+      "email": "example@example.com"
+    },
+    "items": [
+      {
+        "label": "Company",
+        "links": ["About", "Blog", "All Properties", "Location Map"]
+      },
+      {
+        "label": "Services",
+        "links": ["Promotional Offers", "Terms & Conditions"]
+      },
+      { "label": "Explor", "links": ["Villa", "Apartment", "Rowhouse", "Plot"] }
+    ]
+  }
+}

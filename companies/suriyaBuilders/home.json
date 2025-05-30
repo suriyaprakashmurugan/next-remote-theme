@@ -1,0 +1,190 @@
+{
+  "title": "HavenBuilt - Home",
+  "theme": "elysianDwellings",
+  "assetsUrl": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/",
+  "css_url": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/styles/styles.css",
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap",
+
+  "logo": {
+    "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/logo.svg",
+    "alt_text": "HavenBuilt Logo"
+  },
+  "nav_items": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Properties",
+      "url": "/properties"
+    },
+    {
+      "name": "About Us",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "contact": {
+    "url": "/partner",
+    "text": "Channel Partner"
+  },
+
+  "hero": {
+    "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/banner1.png",
+    "title": "Discover Luxury Living Built for You",
+    "description": "Explore premium homes crafted by trusted builders. Designed for comfort, built with precision, and ready to welcome you home.",
+    "button_text": "Explore Properties",
+    "search_filters": ["Location", "Category", "Bedroom", "Facing"]
+  },
+
+  "about": {
+    "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/homeAbout.png",
+    "title": "Homes Crafted with Purpose, Experiences Built to Last.",
+    "description": "Lorem ipsum dolor sit amet consectetur... [your content here]",
+    "button": "View Properties"
+  },
+  "trust": {
+    "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/clienttrust.png",
+    "title": "Trusted by Thousands, Built for Generations",
+    "subtitle": "Lorem ipsum dolor sit amet consectetur... "
+  },
+
+  "trust_points": [
+    {
+      "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client1.svg",
+      "title": "100% In-House Construction Quality",
+      "description": "Every home is built with precision and care by our own trusted team."
+    },
+    {
+      "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client2.svg",
+      "title": "Transparent Pricing & Zero Hidden Charges",
+      "description": "What you see is what you pay — no surprises, just honesty."
+    },
+    {
+      "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client3.svg",
+      "title": "Timely Possession & Builder Assurance",
+      "description": "We deliver on time, every time — with guaranteed commitment."
+    },
+    {
+      "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client4.svg",
+      "title": "Modern Amenities & Smart Home Features",
+      "description": "Experience future-ready living with smart, convenient upgrades."
+    },
+    {
+      "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/client5.svg",
+      "title": "Prime Locations & Great Connectivity",
+      "description": "Live where everything you need is always within reach."
+    }
+  ],
+
+  "top_properties": [
+    {
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/top-property-1.png",
+      "tags": ["Villa", "Available Units : 25"],
+      "name": "Skyline Residences",
+      "description": "Lorem ipsum dolor sit amet...",
+      "location": "R S Puram, Coimbatore",
+      "features": [
+        { "svg": "bed.svg", "title": "2 Bed" },
+        { "svg": "bath.svg", "title": "2 Bath" },
+        { "svg": "sqft.svg", "title": "2000 sqft" }
+      ],
+      "price": "2.8 Cr"
+    },
+    {
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/top-property-2.png",
+      "tags": ["Villa", "Available Units : 25"],
+      "name": "Skyline Residences",
+      "description": "Lorem ipsum dolor sit amet...",
+      "location": "R S Puram, Coimbatore",
+      "features": [
+        { "svg": "bed.svg", "title": "2 Bed" },
+        { "svg": "bath.svg", "title": "2 Bath" },
+        { "svg": "sqft.svg", "title": "2000 sqft" }
+      ],
+      "price": "2.0 Cr"
+    },
+    {
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/top-property-3.png",
+      "tags": ["Villa", "Available Units : 25"],
+      "name": "Skyline Residences",
+      "description": "Lorem ipsum dolor sit amet...",
+      "location": "R S Puram, Coimbatore",
+      "features": [
+        { "svg": "bed.svg", "title": "2 Bed" },
+        { "svg": "bath.svg", "title": "2 Bath" },
+        { "svg": "sqft.svg", "title": "2000 sqft" }
+      ],
+      "price": "4.8 Cr"
+    }
+  ],
+
+  "property_types": [
+    {
+      "title": "Villa",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-1.png"
+    },
+    {
+      "title": "Apartment",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-2.png"
+    },
+    {
+      "title": "Apartment",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-3.png"
+    },
+    {
+      "title": "Apartment",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/dreamProperty-4.png"
+    }
+  ],
+
+  "testimonials": [
+    {
+      "name": "Sadakopan",
+      "role": "Software Engineer",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/testimonial-1.png",
+      "text": "Lorem ipsum dolor sit amet..."
+    },
+    {
+      "name": "Sadakopan",
+      "role": "Software Engineer",
+      "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/testimonial-1.png",
+      "text": "Lorem ipsum dolor sit amet..."
+    }
+  ],
+
+  "footer": {
+    "contact": {
+      "phone": "+91 98765 43210",
+      "email": "havenbuilt@hb.com"
+    },
+    "socials": [
+      {
+        "platform": "whatsapp",
+        "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/whatsapp.svg"
+      },
+      {
+        "platform": "facebook",
+        "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/facebook.svg"
+      }
+    ],
+    "nav": [
+      {
+        "title": "Company",
+        "links": ["About", "Blog", "All Properties"]
+      },
+      {
+        "title": "Services",
+        "links": ["Terms & Conditions", "Promotional Offers"]
+      },
+      {
+        "title": "Explore",
+        "links": ["Villa", "Apartment", "Plot", "Rowhouse"]
+      }
+    ],
+    "copyright": "Copyright 2025 Majestichomes. All rights reserved"
+  }
+}
