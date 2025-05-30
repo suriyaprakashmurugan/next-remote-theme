@@ -394,12 +394,12 @@
           <div class="footer-links-container">
            {% for item in footer_sec.items %}
             <div class="footer-links-column">
-              <h3 class="footer-column-title">Company</h3>
-              <ul class="footer-links-list">
+              <h3 class="footer-column-title">{{item.label}}</h3>
                 {% for link in item.links %}
+              <ul class="footer-links-list">
                 <li><a href="#" class="footer-link">{{link}}</a></li>
-                {% endfor %}
               </ul>
+                {% endfor %}
             </div>
             {% endfor %}
 
