@@ -1,6 +1,7 @@
 {
   "assetsUrl": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/elysianDwellings/assets/",
   "css_url": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/elysianDwellings/styles/styles.css",
+  "google_fonts": "https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&family=Poppins:wght@500&display=swap",
 
   "home_hero": {
     "background_image": "banner1.png",
