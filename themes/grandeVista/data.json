@@ -170,11 +170,20 @@
         "icon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/facebook.svg"
       }
     ],
-    "nav": {
-      "company": ["About", "Blog", "All Properties"],
-      "services": ["Terms & Conditions", "Promotional Offers"],
-      "explore": ["Villa", "Apartment", "Plot", "Rowhouse"]
-    },
+    "nav": [
+      {
+        "title": "Company",
+        "links": ["About", "Blog", "All Properties"]
+      },
+      {
+        "title": "Services",
+        "links": ["Terms & Conditions", "Promotional Offers"]
+      },
+      {
+        "title": "Explore",
+        "links": ["Villa", "Apartment", "Plot", "Rowhouse"]
+      }
+    ],
     "copyright": "Copyright 2025 Majestichomes. All rights reserved"
   }
 }
