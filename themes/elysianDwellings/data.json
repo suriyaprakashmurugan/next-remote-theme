@@ -1,4 +1,7 @@
 {
+  "assetsUrl": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/elysianDwellings/assets/",
+  "css_url": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/elysianDwellings/styles/styles.css",
+
   "home_hero": {
     "background_image": "https://your-site.com/assets/images/banner1.png",
     "logo": "https://your-site.com/assets/images/logo.png",
@@ -21,8 +24,14 @@
     "cta_text": "Explore Luxury Homes",
     "main_image": "https://your-site.com/assets/images/gallery-img1.png",
     "row1_images": [
-      { "src": "https://your-site.com/assets/images/gallery-img2.png", "alt": "Living room" },
-      { "src": "https://your-site.com/assets/images/gallery-img3.png", "alt": "Modern kitchen" }
+      {
+        "src": "https://your-site.com/assets/images/gallery-img2.png",
+        "alt": "Living room"
+      },
+      {
+        "src": "https://your-site.com/assets/images/gallery-img3.png",
+        "alt": "Modern kitchen"
+      }
     ],
     "row2_image": {
       "src": "https://your-site.com/assets/images/gallery-img4.png",
