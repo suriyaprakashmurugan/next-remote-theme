@@ -103,10 +103,10 @@
       "phone": "+91 98765 43210",
       "email": "example@example.com"
     },
-    "links": [
-      { "label": "Company", "href": ["About", "Blog","All Properties","Location Map"] },
-      { "label": "Services", "href": ["Promotional Offers","Terms & Conditions"] },
-      { "label": "Property", "href": ["Villa","Apartment","Rowhouse","Plot"] }
+    "items": [
+      { "label": "Company", "links": ["About", "Blog","All Properties","Location Map"] },
+      { "label": "Services", "links": ["Promotional Offers","Terms & Conditions"] },
+      { "label": "Property", "links": ["Villa","Apartment","Rowhouse","Plot"] }
     ]
   }
 }
