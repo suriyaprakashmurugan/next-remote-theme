@@ -11,6 +11,11 @@
     "alt_text": "HavenBuilt Logo"
   },
 
+  "contact": {
+    "url": "/partner",
+    "text": "Channel Partner"
+  },
+
   "home_hero": {
     "background_image": "banner1.png",
     "logo": "logo.png",
