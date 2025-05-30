@@ -50,7 +50,7 @@
 
   "stats": {
     "title": "Building More Than Homes - We Build the Difference",
-    "image":"",
+    "image": "",
     "items": [
       {
         "icon": "https://your-site.com/icons/clients.svg",
@@ -93,6 +93,20 @@
         "price_icon": "<svg>...</svg>",
         "link": "#"
       }
+    ]
+  },
+
+  "footer_sec": {
+    "content": "Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.",
+    "contact": {
+      "address": "R S Puram, Coimbatore",
+      "phone": "+91 98765 43210",
+      "email": "example@example.com"
+    },
+    "links": [
+      { "label": "Company", "href": ["About", "Blog","All Properties","Location Map"] },
+      { "label": "Services", "href": ["Promotional Offers","Terms & Conditions"] },
+      { "label": "Property", "href": ["Villa","Apartment","Rowhouse","Plot"] }
     ]
   }
 }
