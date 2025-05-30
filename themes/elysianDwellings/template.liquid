@@ -154,7 +154,7 @@
   <div class="home-featureProperties__container" id="propertySlider">
     {% for property in feature_properties.list %}
     <div class="home-featureProperties__card">
-      <img src="{{ property.image }}" alt="{{ property.name }}" class="home-featureProperties__image" />
+      <img src="{{assetsUrl}}{{ property.image }}" alt="{{ property.name }}" class="home-featureProperties__image" />
       <div class="home-featureProperties__tags">
         <div class="home-featureProperties__tag">{{ property.type }}</div>
         <div class="home-featureProperties__tag home-featureProperties__tag--units">
