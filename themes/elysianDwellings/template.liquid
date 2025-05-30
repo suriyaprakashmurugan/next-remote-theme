@@ -395,11 +395,11 @@
            {% for item in footer_sec.items %}
             <div class="footer-links-column">
               <h3 class="footer-column-title">{{item.label}}</h3>
-                {% for link in item.links %}
               <ul class="footer-links-list">
+                {% for link in item.links %}
                 <li><a href="#" class="footer-link">{{link}}</a></li>
-              </ul>
                 {% endfor %}
+              </ul>
             </div>
             {% endfor %}
 

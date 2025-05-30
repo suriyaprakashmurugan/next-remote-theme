@@ -106,7 +106,7 @@
     "items": [
       { "label": "Company", "links": ["About", "Blog","All Properties","Location Map"] },
       { "label": "Services", "links": ["Promotional Offers","Terms & Conditions"] },
-      { "label": "Property", "links": ["Villa","Apartment","Rowhouse","Plot"] }
+      { "label": "Explor", "links": ["Villa","Apartment","Rowhouse","Plot"] }
     ]
   }
 }
