@@ -7,37 +7,31 @@
 
   "logo": {
     "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/logo.svg",
+    "favicon": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/logo.svg",
     "alt_text": "HavenBuilt Logo"
   },
-  "nav_items": [
-    {
-      "name": "Home",
-      "url": "/"
-    },
-    {
-      "name": "Properties",
-      "url": "/properties"
-    },
-    {
-      "name": "About Us",
-      "url": "/about"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    }
-  ],
+
   "contact": {
     "url": "/partner",
     "text": "Channel Partner"
   },
-
-  "hero": {
-    "image": "https://suriyaprakashmurugan.github.io/next-remote-theme/themes/grandeVista/assets/banner1.png",
-    "title": "Discover Luxury Living Built for You",
-    "description": "Explore premium homes crafted by trusted builders. Designed for comfort, built with precision, and ready to welcome you home.",
+  
+  "home_hero": {
     "button_text": "Explore Properties",
-    "search_filters": ["Location", "Category", "Bedroom", "Facing"]
+    "description": "Explore premium homes crafted by trusted builders. Designed for comfort, built with precision, and ready to welcome you home.",
+    "title": "Discover Luxury Living Built for You",
+    "background_image": "banner1.png",
+    "logo": "logo.png",
+    "nav_items": [
+      { "label": "Home", "href": "index.html", "active": true },
+      { "label": "About Us", "href": "about.html" },
+      { "label": "Properties", "href": "property-listing.html" },
+      { "label": "contact", "href": "collection.html" }
+    ],
+    "contact_link": "contact.html",
+    "cta_text": "Explore Properties",
+    "cta_link": "#",
+    "filters": ["Location", "Category", "Bedroom", "Facing"]
   },
 
   "about": {

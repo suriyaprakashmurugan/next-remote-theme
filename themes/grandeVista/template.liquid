@@ -19,7 +19,7 @@
 
   <nav class="hero-nav">
     <ul class="hero-nav-menu">
-      {% for item in nav_items %}
+      {% for item in home_hero.nav_items %}
         <li class="hero-nav-item {% if item.active %}active{% endif %}">
           <a href="{{ item.url }}">{{ item.name }}</a>
         </li>
