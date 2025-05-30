@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+
+    <link rel="stylesheet" href="{{ css_url }}" />
+    <link href="{{ google_fonts }}" rel="stylesheet" />
+  </head>
+
+  <body>
+  --- home-hero.liquid ---
+<section class="home-hero-section">
+  <img src="{{ home_hero.background_image }}" alt="Background" class="home-hero-background-image" />
+
+  <header class="hero-header">
+    <div class="home-hero-logo">
+      <a href="index.html">
+        <img src="{{ home_hero.logo }}" alt="Logo" />
+      </a>
+    </div>
+
+    <nav class="hero-nav">
+      <div class="hero-nav-container">
+        <ul class="hero-nav-list">
+          {% for item in home_hero.nav_items %}
+          <li class="hero-nav-item {% if item.active %}active{% endif %}">
+            <a href="{{ item.href }}"><span>{{ item.label }}</span></a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero-contact">
+      <a href="{{ home_hero.contact_link }}" class="hero-contact-btn">Contact Us</a>
+    </div>
+
+    <div class="hero-mobile-menu">
+      <button class="hero-menu-toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="hero-mobile-contact">
+      <a href="{{ home_hero.contact_link }}" class="hero-contact-btn">Contact Us</a>
+    </div>
+  </header>
+
+  <div class="home-hero-content">
+    <h1 class="home-hero-title">{{ home_hero.title }}</h1>
+    <p class="home-hero-description">{{ home_hero.description }}</p>
+    <div class="home-hero-view-btn">
+      <a href="{{ home_hero.cta_link }}" class="home-hero-cta-btn">{{ home_hero.cta_text }}</a>
+    </div>
+  </div>
+
+  <div class="home-hero-filter">
+    {% for filter in home_hero.filters %}
+    <div class="filter-option">
+      <div class="filter-label">{{ filter }}</div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.77789 6.72168L0 1.34415L1.44422 0L6.5 4.70546L11.5558 0L13 1.34415L7.22211 6.72168C7.03057 6.89989 6.77083 7 6.5 7C6.22917 7 5.96943 6.89989 5.77789 6.72168Z" fill="#F8F8F8" />
+      </svg>
+    </div>
+    {% endfor %}
+    <div class="filter-search-btn">Search</div>
+  </div>
+</section>
+
+--- home-gallery.liquid ---
+<section class="home-image-container">
+  <div class="home-image-header">
+    <div class="home-image-title">
+      <h1>{{ home_gallery.title }}</h1>
+    </div>
+    <div class="home-image-cta">
+      <button class="home-image-button">{{ home_gallery.cta_text }}</button>
+    </div>
+  </div>
+  <div class="home-image-gallery">
+    <div class="home-image-main">
+      <img src="{{ home_gallery.main_image }}" alt="Main image" />
+    </div>
+    <div class="home-image-secondary">
+      <div class="home-image-row">
+        {% for image in home_gallery.row1_images %}
+        <div class="home-image-small">
+          <img src="{{ image.src }}" alt="{{ image.alt }}" />
+        </div>
+        {% endfor %}
+      </div>
+      <div class="home-image-row">
+        <div class="home-image-wide">
+          <img src="{{ home_gallery.row2_image.src }}" alt="{{ home_gallery.row2_image.alt }}" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+--- home-aboutus.liquid ---
+<section>
+  <div class="home-aboutus-container">
+    <div class="home-aboutus-content">
+      <h2 class="home-aboutus-heading">{{ aboutus.heading }}</h2>
+      <h3 class="home-aboutus-subheading">{{ aboutus.subheading }}</h3>
+      <p class="home-aboutus-description">{{ aboutus.description }}</p>
+      <button class="home-aboutus-button">{{ aboutus.button }}</button>
+    </div>
+    <div class="home-aboutus-image-wrapper">
+      <img class="home-aboutus-image" src="{{ aboutus.image }}" alt="Luxury Home" />
+    </div>
+  </div>
+</section>
+
+
+  </body>
+</html>

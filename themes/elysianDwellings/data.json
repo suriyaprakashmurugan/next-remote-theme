@@ -1,0 +1,40 @@
+{
+  "home_hero": {
+    "background_image": "https://your-site.com/assets/images/banner1.png",
+    "logo": "https://your-site.com/assets/images/logo.png",
+    "nav_items": [
+      { "label": "Home", "href": "index.html", "active": true },
+      { "label": "About", "href": "about.html" },
+      { "label": "Property Listing", "href": "property-listing.html" },
+      { "label": "Collections", "href": "collection.html" }
+    ],
+    "contact_link": "contact.html",
+    "title": "Welcome to a<br />World of Wonders",
+    "description": "Discover premium villas, apartments, and plots in prime locations...",
+    "cta_text": "View Properties",
+    "cta_link": "#",
+    "filters": ["Location", "Property Name", "Category", "Bedrooms", "Facing"]
+  },
+
+  "home_gallery": {
+    "title": "Live the Luxury, <br />Own the Extraordinary",
+    "cta_text": "Explore Luxury Homes",
+    "main_image": "https://your-site.com/assets/images/gallery-img1.png",
+    "row1_images": [
+      { "src": "https://your-site.com/assets/images/gallery-img2.png", "alt": "Living room" },
+      { "src": "https://your-site.com/assets/images/gallery-img3.png", "alt": "Modern kitchen" }
+    ],
+    "row2_image": {
+      "src": "https://your-site.com/assets/images/gallery-img4.png",
+      "alt": "Modern houses in autumn"
+    }
+  },
+
+  "aboutus": {
+    "heading": "About Us",
+    "subheading": "Building Trust, Creating Homes",
+    "description": "Lorem ipsum dolor sit amet consectetur. Faucibus nisl risus...",
+    "button": "Explore Luxury Homes",
+    "image": "https://your-site.com/assets/images/aboutus.png"
+  }
+}
