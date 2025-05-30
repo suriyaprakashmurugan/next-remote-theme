@@ -21,7 +21,7 @@
     <ul class="hero-nav-menu">
       {% for item in home_hero.nav_items %}
         <li class="hero-nav-item {% if item.active %}active{% endif %}">
-          <a href="{{ item.url }}">{{ item.name }}</a>
+          <a href="{{ item.href }}">{{ item.label }}</a>
         </li>
       {% endfor %}
     </ul>
